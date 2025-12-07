@@ -1,0 +1,11 @@
+function: explo V:n on A:n max M:n {
+  if (A = M) { result: [explo (V + A) on 1dM max M] }
+  else { result: V + A }
+}
+
+function: swdice V:n { result: [explo 0 on 1dV max V] }
+
+set "maximum function depth" to 4
+\ output ([swdice 6] - 2) > 3 \
+output [swdice 6] - 2
+output [swdice 4] - 2
