@@ -1,0 +1,15 @@
+output {1,2}@3d6 < 6 named "5dis"
+output {1,2}@3d6 < 7 named "6dis"
+output 2d6 < 6 named "5"
+output {1,2}@3d6 < 8 named "7dis"
+output 2d6 < 7 named "6"
+output {1,2}@3d6 < 9 named "8dis"
+output {2,3}@3d6 < 6 named "5adv"
+output 2d6 < 8 named "7"
+\ output {1,2}@3d6 < 10 named "9dis" \
+output {2,3}@3d6 < 7 named "6adv"
+output 2d6 < 9 named "8"
+output {2,3}@3d6 < 8 named "7adv"
+\ output 2d6 < 10 named "9" \
+output {2,3}@3d6 < 9 named "8adv"
+\ output {2,3}@3d6 < 10 named "9adv" \
